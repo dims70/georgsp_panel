@@ -1,0 +1,54 @@
+input,
+select {
+  padding: 5px;
+}
+input {
+  margin: 5px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span[type="button"] {
+  padding: 6px 10px;
+  background-color: rgb(25, 66, 179);
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 300px;
+}
+span[role="delete"] {
+  padding: 6px 10px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+.btnDel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#save {
+  padding: 6px 10px;
+  background-color: green;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 300px;
+  border: 0;
+}

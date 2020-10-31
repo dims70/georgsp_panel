@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'Century Gothic Regular';
+	src: url('../fonts/CenturyGothic.eot');
+	src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/CenturyGothic.woff') format('woff'),
+	url('../fonts/CenturyGothic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	font-size: 2.6vh;
+}
+
+body {
+	color: #fff;
+	background: #000;
+	line-height: 1.35;
+}
+
+.date {
+	color: Gainsboro;
+	font-family: 'Century Gothic Regular';
+	font-weight: lighter;
+	text-shadow: 0 0 2px rgba(220, 220, 220,.5);
+	font-style: italic;
+	font-size: 3vh;
+}
+
+.time {
+	color: Gainsboro;
+	font-family: 'Century Gothic Regular';
+	font-size: 9vh;
+	font-weight: lighter;
+	text-shadow: 0 0 2px rgba(220, 220, 220,1);
+	position: absolute;
+	top: -15px;
+	right: -5px;
+}
+
+.second {
+	font-size: .7em;
+	vertical-align: .32em;
+}
+
+h4 {
+	color: rgba(255, 255, 100, .8);
+	text-shadow: 0 0 2px rgba(255, 255, 100,.5);
+	font-weight: 700;
+	margin: 0px;
+}
+
+h6 {
+	color: rgba(255, 255, 100, .9);
+	text-shadow: 0 0 2px rgba(255, 255, 100,.5);
+	/*margin-bottom: 5px;*/
+}
+
+div {
+	border: 0px solid white;
+}
+
+.item-inner>div:nth-child(1){
+	border-top: 1px solid;
+	border-image: radial-gradient(rgba(255,255,255,.5) 75%, rgba(0,0,0,1)) 1;
+}
+
+.item-inner>div:nth-child(2n){
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.05) 10%, rgba(255,255,255,.05) 90%, rgba(255,255,255,0) 100%);
+}
+
+.label {
+	color: rgb(64, 224, 208);
+	text-shadow: 0 0 2px rgba(64, 224, 208,.4);
+	font-size: 3.3vh;
+	font-weight: 600;
+	margin-top: 1.3vh;
+	/*background: black !important;*/
+}
+
+.label_ {
+	color: rgb(250, 0, 0);
+	text-shadow: 0 0 2px rgba(250, 0, 0,.4);
+	font-size: 3.3vh;
+	font-weight: 600;
+	margin-top: 1.3vh;
+}
+
+.time-label {
+	color: rgba(255,255,255,.6);
+	text-align: center;
+	/*padding: 0px !important;*/
+}
+
+.text-label {
+	text-align: left;
+}
+
+.kab-label {
+	text-align: center;
+}
+
+.border-line {
+	font-size: 1.75vh;
+	font-style: italic;
+	text-align: center;
+	color: rgba(255,255,255,.6);
+}
